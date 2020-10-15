@@ -32,15 +32,4 @@ public class GuessGame {
     public void printBestScore() {
         System.out.println("The best score is: " + bestScore);
     }
-
-    public static void main(String[] args) {
-
-        int max = 100;
-
-        GuessGame game = new GuessGame();
-        for (int i = 0; i < 3; i++) {
-            game.play(max);
-        }
-        game.printBestScore();
-    }
 }
